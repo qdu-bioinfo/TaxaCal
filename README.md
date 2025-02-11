@@ -2,15 +2,15 @@
 
 ## Contents
 
-- <u>[Introduction](#Introduction)</u>
+- [Introduction](#Introduction)
 
-- <u>[Package](#Package)</u>
+- [Package](#Package)
 
-- <u>[Installation](#Installation)</u>
+- [Installation](#Installation)
 
-- <u>[Example dataset](#Example dataset)</u>
+- [Example dataset](#Example dataset)
 
-- <u>[Training and Calibration](#Training and Calibration)</u>
+- [Training and Calibration](#Training and Calibration)
 
 ## Introduction
 
