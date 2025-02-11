@@ -48,7 +48,6 @@ SampleN	0	0.1	0.2	0.4	0	0	0.3	0	0
 you can set the custom training sample path in the config section under the '/bin' folder.
 
 ## Training and Calibration
------------------------------
 
 For this demonstration dataset, you can run the program with one click through the configured .sh file to generate a calibrated 16S species-level relative abundance file.
 
