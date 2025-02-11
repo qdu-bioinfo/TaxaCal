@@ -8,9 +8,9 @@
 
 - [Installation](#Installation)
 
-- [Example dataset](#Example dataset)
+- [Example dataset](#Example-dataset)
 
-- [Training and Calibration](#Training and Calibration)
+- [Training and Calibration](#Training-and-Calibration)
 
 ## Introduction
 
