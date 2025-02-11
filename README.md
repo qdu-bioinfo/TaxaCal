@@ -31,9 +31,9 @@ cd TaxaCal-main
 sh init.sh
 ```
 
-## Data
+## Example dataset
 
-We provide a demonstration dataset stored in the /data directory, derived from an in-house produced dataset. This dataset includes: (1) training_16s_genus.csv, which contains the genus-level relative abundance of 20 training 16S samples; (2) training_wgs_genus.csv, which provides the genus-level relative abundance of the corresponding 20 training WGS samples; (3) training_wgs_species.csv, which contains the species-level relative abundance of the same 20 training WGS samples; and (4) test_16s.csv, which represents the genus-level relative abundance of the 16S sample to be calibrated.
+We provide a demonstration dataset stored in the /data directory. This dataset includes: (1) training_16s_genus.csv, which contains the genus-level relative abundance of 20 training 16S samples; (2) training_wgs_genus.csv, which provides the genus-level relative abundance of the corresponding 20 training WGS samples; (3) training_wgs_species.csv, which contains the species-level relative abundance of the same 20 training WGS samples; and (4) test_16s.csv, which represents the genus-level relative abundance of the 16S sample to be calibrated.
 
 The format of the taxonomic relative abundance tables: 
 ```
@@ -45,8 +45,9 @@ Sample3	0	0.2	0.1	0.3	0	0	0.4	0	0
 ...
 SampleN	0	0.1	0.2	0.4	0	0	0.3	0	0
 ```
+you can set the custom training sample path in the config section under the '/bin' folder.
 
-Training and Calibration
+## Training and Calibration
 -----------------------------
 
 For this demonstration dataset, you can run the program with one click through the configured .sh file to generate a calibrated 16S species-level relative abundance file.
@@ -55,8 +56,14 @@ For this demonstration dataset, you can run the program with one click through t
 
 ![image](https://github.com/qdu-bioinfo/TaxaCal/blob/main/img.png)
 
-you can set the custom training sample path in the config section under the '/bin' folder.
+For convenience, you can run the processes above by running the run.sh in folder '/TaxaCal'.
 
-### result
+```
+cd TaxaCal-main
+chmod a+x run.sh
+./run.sh
+```
+
+## Result
 
 The result of the run is a calibrated.csv file, which is the calibrated relative abundance of the 16S. 
