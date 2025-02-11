@@ -19,7 +19,9 @@ In this study, we present TaxaCal (Taxonomic Calibrator), a machine learning alg
 ## Package
 
 scikit-learn==1.6.1
+
 scipy===1.15.1
+
 numpy==2.2.2
 
 ## Installation
@@ -51,7 +53,7 @@ For this demonstration dataset, you can run the program with one click through t
 
 ### The framework of TaxaCal algorithm
 
-![image](https://github.com/qdu-bioinfo/TaxaCal/img.png)
+![image](https://github.com/qdu-bioinfo/TaxaCal/blob/main/img.png)
 
 you can set the custom training sample path in the config section under the '/bin' folder.
 
