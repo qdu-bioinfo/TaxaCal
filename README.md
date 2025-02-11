@@ -8,7 +8,7 @@
 
 - <u>[Installation](#Installation)</u>
 
-- <u>[Data](#Data)</u>
+- <u>[Example dataset](#Example dataset)</u>
 
 - <u>[Training and Calibration](#Training and Calibration)</u>
 
