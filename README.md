@@ -49,13 +49,7 @@ you can set the custom training sample path in the config section under the '/bi
 
 ## Training and Calibration
 
-For this demonstration dataset, you can run the program with one click through the configured .sh file to generate a calibrated 16S species-level relative abundance file.
-
-### The framework of TaxaCal algorithm
-
-![image](https://github.com/qdu-bioinfo/TaxaCal/blob/main/img.png)
-
-For convenience, you can run the processes above by running the run.sh in folder '/TaxaCal'.
+For this demo dataset, you can quickly complete the training and calibration process by running run.sh in the '/TaxaCal' folder to obtain a calibrated 16S species relative abundance file.
 
 ```
 cd TaxaCal-main
@@ -63,6 +57,11 @@ chmod a+x run.sh
 ./run.sh
 ```
 
+### The framework of TaxaCal algorithm
+
+![image](https://github.com/qdu-bioinfo/TaxaCal/blob/main/img.png)
+
+
 ## Result
 
-The result of the run is a calibrated.csv file, which is the calibrated relative abundance of the 16S. 
+The calibrated 16S species abundance file will be saved in the specified output directory after the script has finished running.
